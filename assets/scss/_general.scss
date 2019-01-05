@@ -1,0 +1,87 @@
+//_general
+ /* GENERAL */
+p {
+	font-family: $second-font;
+	font-size: 1rem;
+	font-weight: 400;
+	letter-spacing: 0.1em;
+	color: $darker-grey;
+	margin: 5px 0;
+}
+
+h1, h2, h3, h4 {
+	font-family: $main-font;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: $darker-grey;
+}
+
+h1 {
+	font-size: 2.5rem;
+	font-weight: 700;
+	padding:0 82px;
+}
+
+h2 {
+	font-size: 1rem;
+	font-weight: 500;
+	color: $dark-grey;
+}
+
+h3 {
+	font-size: 2rem;
+	font-weight: 600;
+	margin: 0;
+}
+
+h4 {
+	font-size: 1.5rem;
+	font-weight: 400;
+	color: $darker-grey;
+	margin: 0;
+	padding: 10px 0;
+}
+
+img {
+	width: 100%;
+}
+
+.flex {
+	display: flex;
+}
+
+.container {
+	margin: 0 auto;
+}
+
+.section-padding {
+	padding: 40px;
+}
+
+.button {
+	display: inline-block;
+	padding: 10px 30px 10px;
+	margin: 25px 0;
+	color: $darker-grey;
+	font-family: $second-font;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 1rem;
+	background-color: #fff;
+	border: 1px solid $dark-grey;
+	&:hover {
+			border-color: $coral;
+			background-color: $coral;
+	}
+}
+
+[data-integer]::before {
+  			content: attr(data-integer) " ";
+			color: $coral;
+			font-size: 3rem;
+			width: 700;
+			vertical-align: 25px;
+}
+
+ /* GENERAL */

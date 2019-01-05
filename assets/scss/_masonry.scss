@@ -1,0 +1,52 @@
+//_masonry
+ /* MASONRY start */
+
+.grid {
+	margin: 25px;
+}
+
+.grid-item { 
+	width: 25%;
+	padding: 10px;
+	position: relative;
+}
+
+.grid-item a:hover{
+	content: "";
+	opacity: 0.7;
+		&::before{
+			content: "View project";
+			text-align: center;
+			text-transform: uppercase;
+			color: $darker-grey;
+			font-family: $second-font;
+			padding: 20px;
+			border: 2px solid $coral;
+			border-radius: 90%;
+			background-color: $coral;
+			width: 40%;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			position: absolute;
+			z-index: 3;
+		}
+}
+.works{
+	background-color: $light-grey;
+}
+.works .container{
+	width: 100%;
+	align-items: center;
+	background-color: #fff;
+	padding: 30px 0;
+	box-shadow: 4px 4px 7px 0px rgba(112,106,112,1);
+}
+
+.fancy-box-slide{
+	display: none;
+	background-color: $coral;
+
+}
+
+ /* MASONRY end */

@@ -1,0 +1,55 @@
+//_hero
+ /* HERO start */
+
+.hero {
+	background-size: cover;
+	min-height: 100vh;
+	background-position: center;
+}
+
+.hero-left-side {
+	background-color: #fff;
+	width: 50%;
+	min-height: 100vh;
+	text-align: center;
+	align-items: center;
+		&:before {
+			content: "";
+			position: absolute;
+		    top: 200px;
+		    right: 0;
+		    width: 250px;
+		    height: 350px;
+		    border: 10px solid #fff;
+		    border-right: none;
+		}
+}
+
+.hero-right-side {
+	background-color: $light-grey;
+	width: 50%;
+	min-height: 100vh;
+	background-image: url(../images/profile.png);
+	background-size: cover;
+		&:before {
+			content: "";
+			position: absolute;
+		    top: 200px;
+		    left: 0;
+		    width: 250px;
+		    height: 350px;
+		    border: 10px solid $light-grey;
+		    border-left: none;
+		}
+}
+
+.left-side-content {
+	position: relative;
+	z-index: 1;
+}
+
+.right-side-content {
+	position: relative;
+}
+
+ /* HERO end */

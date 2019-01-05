@@ -1,0 +1,51 @@
+//_services
+
+.services .container{
+	width: 100%;
+	flex-wrap: wrap;
+}
+
+.service-title {
+	width: 100%;
+	justify-content: flex-end;
+	padding: 30px 100px 5px 0;
+}
+
+.services {
+	background-color: #fff;
+	min-height: 100vh;
+		.services-content {
+			width: 100%;
+			justify-content: center;
+			align-items: center;
+		}
+		.service {
+			width: 33.33%;
+			padding: 20px;
+			flex-wrap: wrap;
+			justify-content: center;
+				i {
+					font-size: 90px;
+					color: $coral;
+					padding: 40px 0;
+				}
+				p{
+					padding: 20px 40px;
+				}
+				p:last-child {
+			      	text-align: justify;
+			    }
+		}
+}
+
+.text-part {
+	width: 100%;
+	text-align: center;
+}
+
+// $breakpoint-tablet: 768px;
+// @media (min-width: $breakpoint-tablet) {
+//   .service{
+// 		width: 100%;
+// 	}
+// }
