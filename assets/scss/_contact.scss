@@ -43,6 +43,10 @@
 		i {
 			font-size: 3rem;
 			padding: 10px;
+			color: $darker-grey;
+				&:hover{
+					color: $coral;
+				}
 		}	
 }
 

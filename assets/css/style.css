@@ -26,6 +26,14 @@ body {
   color: #ff8080;
 }
 
+.main-nav .menu-item {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  list-style: none;
+  padding-right: 20px;
+}
+
 .top-nav {
   position: fixed;
   width: 100%;
@@ -42,24 +50,42 @@ body {
   align-items: center;
 }
 
+.grey-nav {
+  display: none;
+}
+
 .burger {
   display: none;
 }
 
 @media all and (max-width: 600px) {
-  .main-nav ul {
+  .menu-item {
     display: none;
+  }
+  .main-nav {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    -ms-flex-line-pack: end;
+    align-content: flex-end;
   }
-  .main-nav.show {
+  .menu-item.show {
     display: block;
   }
   .menu-item {
     width: 100%;
+    text-align: right;
+    margin: 10px;
   }
   .burger {
     display: block;
+    text-align: right;
+  }
+  .grey-nav.show {
+    display: block;
+    background-color: #e2e2e2;
+  }
+  .main-nav.hidden {
+    display: none;
   }
 }
 
@@ -102,21 +128,21 @@ body {
   padding-left: 50px;
 }
 
-.logo {
-  width: 18%;
-  padding: 20px 50px;
-}
-
-.logo img {
-  width: 100%;
-}
-
-ul {
+.social-nav ul {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
   list-style: none;
   margin: 20px;
+}
+
+.logo {
+  width: 18%;
+  padding: 10px 50px;
+}
+
+.logo img {
+  width: 100%;
 }
 
 li {
@@ -270,6 +296,7 @@ img {
 }
 
 /* HERO end */
+/* CONTACT SECTION start */
 .about {
   background-color: #e2e2e2;
   min-height: 100vh;
@@ -348,6 +375,7 @@ img {
   border-top: 50px solid #e2e2e2;
 }
 
+/* CONTACT SECTION END */
 .services .container {
   width: 100%;
   -ms-flex-wrap: wrap;
@@ -406,12 +434,6 @@ img {
   text-align: center;
 }
 
-@media (min-width: 768px) {
-  .service {
-    width: 100%;
-  }
-}
-
 /* MASONRY start */
 .grid {
   margin: 25px;
@@ -423,12 +445,12 @@ img {
   position: relative;
 }
 
-.grid-item a:hover {
+.grid-item .img:hover {
   content: "";
   opacity: 0.7;
 }
 
-.grid-item a:hover::before {
+.grid-item .img:hover::before {
   content: "View project";
   text-align: center;
   text-transform: uppercase;
@@ -465,7 +487,41 @@ img {
 
 .fancy-box-slide {
   display: none;
+  min-width: 60%;
+  min-height: 60%;
   background-color: #ff8080;
+}
+
+.fancy-box-slide i {
+  font-size: 60px;
+  color: #212121;
+  display: inline-block;
+}
+
+.categorys {
+  width: 100%;
+}
+
+.categorys a {
+  font-size: 0.85rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  font-family: "Encode Sans", sans-serif;
+  color: #212121;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.categorys a:hover {
+  text-decoration: line-through;
+  -webkit-text-decoration-color: #ff8080;
+  text-decoration-color: #ff8080;
+}
+
+.categorys li {
+  list-style: none;
+  padding: 5px;
 }
 
 /* MASONRY end */
@@ -530,6 +586,11 @@ img {
 .contact-right-side i {
   font-size: 3rem;
   padding: 10px;
+  color: #212121;
+}
+
+.contact-right-side i:hover {
+  color: #ff8080;
 }
 
 .contact-form {

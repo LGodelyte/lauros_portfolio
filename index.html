@@ -12,18 +12,18 @@
 </head>
 <body>
 	<!-- header start -->
-	<header class="top-nav">
-		<div class= "container flex">
+	<header class="top-nav  ">
+		<div class= "container  flex">
 			<div class="logo">
 				<a href="#Home">
 					<img src="assets/images/lv-min.png" alt="Laurų vainikas">
 				</a>
 			</div>
-			<nav class="main-nav">
+			<nav >
 				<div class="burger">
 					<i class="fas fa-bars"></i>
 				</div>
-				<ul class="flex">
+				<ul class="flex main-nav">
 					<li class="menu-item"><a href="#Home">Home</a></li>
 					<li class="menu-item"><a href="#About">About</a></li>
 					<li class="menu-item"><a href="#Service">Service</a></li>
@@ -47,8 +47,7 @@
 				</div>
 			</div>
 			<div class="hero-right-side">
-				<div class="right-side-content">
-				</div>
+				<div class="right-side-content"></div>
 			</div>
 		</div>
 	</section>
@@ -80,7 +79,7 @@
 			</div>
 			<div class="services-content flex">
 				<div class="service flex">
-					<i class="far fa-image fa-fw"></i>
+					<i class="fas fa-user fa-fw"></i>
 					<div class="text-part">
 						<h4>Front-end</h4>
 						<p>HTML5, CSS, Javascript, Sass, Bootstrap</p>
@@ -88,7 +87,7 @@
 					</div>
 				</div>
 				<div class="service flex">
-					<i class="far fa-file-code fa-fw"></i>
+					<i class="fas fa-user-cog fa-fw"></i>
 					<div class="text-part">
 						<h4>Back-end</h4>
 						<p>PHP, MySQL</p>
@@ -96,7 +95,7 @@
 					</div>
 				</div>
 				<div class="service flex">
-					<i class="fab fa-wordpress-simple fa-fw"></i>
+					<i class="fas fa-user-edit fa-fw"></i>
 					<div class="text-part">
 						<h4>CMS</h4>
 						<p>Wordpress end plugins: Woocommerce</p>
@@ -112,90 +111,131 @@
 		<div class="container">
 			<div class="grid">
 				<!--masonry_item start-->
-				<div>
-					<h3 class="grid-item" data-integer="03">works</h3>
+				<div class="grid-item">
+					<h3 data-integer="03">works</h3>
+					<div>
+						<ul class="categorys">
+							<li><a href="#">All</a></li>
+							<li><a href="#">HTML</a></li>
+							<li><a href="#">CSS</a></li>
+							<li><a href="#">Javascript</a></li>
+						</ul>
+					</div>
 				</div>
 				<!--masonry_item end-->
 				<!--masonry_item start-->
 			  	<div class="grid-item">
-			  		<a data-fancybox="portfolio" data-src="#portfolio" href="javascript:;">
+			  		<a class="img" data-fancybox="portfolio" data-src="#portfolio" href="javascript:;">
 		  				<img src="assets/images/1.jpg" alt="project-01">
 		  			</a>
-		  		<div id="portfolio"  class="fancy-box-slide animated-modal p-5">
-		  			<h4>Portfolio</h4>
-		  			<p><h2>Technical Sheet: </h2></p>
-		  			<p>Code technologies and skills I got involved with while working on this project.</p>
-		  			<p> &#9634; HTML5</p>
-		  			<p> &#9634; CSS3 – preprocessed with SASS</p>
-		  			<p> &#9634; Javascript, jQuery</p>
-		  			<p> &#9634; PHP</p>
-		  			<p> &#9634; CMS: Wordpress</p>
-		  			<p><h2>Resources: </h2></p>
-		  			<p> &#9634; The project is online at<a href="#">www.lauruvainikas.lt</a></p>
-		  			<p> &#9634; Access the laboratory web components and extensions on my <a href="#">GitHub</a></p>
-		  		</div>
+			  		<div id="portfolio"  class="fancy-box-slide">
+			  			<i class="fab fa-earlybirds"><h4>Project name: Portfolio</h4></i>
+			  			<h2>Technical Sheet: </h2>
+			  			<p>Code technologies and skills I got involved with while working on this project.</p>
+			  			<p> &#9634; HTML5</p>
+			  			<p> &#9634; CSS3 – preprocessed with SASS</p>
+			  			<p> &#9634; Javascript, jQuery</p>
+			  			<p> &#9634; PHP</p>
+			  			<p> &#9634; CMS: Wordpress</p>
+			  			<h2>Resources: </h2>
+			  			<p> &#9634; The project is online at <a href="#">www.lauruvainikas.lt</a></p>
+			  			<p> &#9634; Access the laboratory web components and extensions on my <a href="#">GitHub</a></p>
+			  		</div>
 		  		</div>
 			  	<!--masonry_item end-->
 				<!--masonry_item start-->
 			  	<div class="grid-item">
-			  		<a data-fancybox="gallery" data-src="#gallery" href="javascript:;">
+			  		<a class="img" data-fancybox="gallery" data-src="#gallery" href="javascript:;">
 		  				<img src="assets/images/2.jpg" alt="project-02">
 		  			</a>
 		  			<div id="gallery"  class="fancy-box-slide">
-		  			<h4>Project name: Portfolio</h4>
-		  			<p><h2>Technical Sheet: </h2></p>
-		  			<p>Code technologies and skills I got involved with while working on this project.</p>
-		  			<p> &#9634; HTML5</p>
-		  			<p> &#9634; CSS3 – preprocessed with SASS</p>
-		  			<p> &#9634; Javascript, jQuery</p>
-		  			<p> &#9634; PHP</p>
-		  			<p> &#9634; CMS: Wordpress</p>
-		  			<p><h2>Resources: </h2></p>
-		  			<p> &#9634; The project is online at<a href="#">www.lauruvainikas.lt</a></p>
-		  			<p> &#9634; Access the laboratory web components and extensions on my <a href="#">GitHub</a></p>
-		  		</div>
+	  					<i class="fab fa-earlybirds"></i>
+		  				<h4>Project name: Gallery</h4>
+			  			<h2>Technical Sheet: </h2>
+			  			<p>Code technologies and skills I got involved with while working on this project.</p>
+			  			<p> &#9634; HTML5</p>
+			  			<p> &#9634; CSS3</p>
+			  			<h2>Resources: </h2>
+			  			<p> &#9634; Access the laboratory web components and extensions on my <a href="#">GitHub</a></p>
+		  			</div>
 			  	</div>
 			  	<!--masonry_item end-->
 				<!--masonry_item start-->
 			  	<div class="grid-item">
-			  		<a href="#">
+			  		<a class="img" data-fancybox="project-03" data-src="#project-03" href="javascript:;">
 		  				<img src="assets/images/3.jpg" alt="project-03">
 		  			</a>
+		  			<div id="project-03"  class="fancy-box-slide">
+		  				<i class="fab fa-earlybirds"></i>
+			  			<h4>Project name: Awesome name</h4>
+			  			<h2>I'm in process: </h2>
+			  			<p>Code technologies and skills I got involved with while working on this project.</p>
+		  			</div>
 			  	</div>
 			  	<!--masonry_item end-->
 				<!--masonry_item start-->
 			  	<div class="grid-item">
-			  		<a href="#">
+			  		<a class="img" data-fancybox="project-04" data-src="#project-04" href="javascript:;">
 		  				<img src="assets/images/4.jpg" alt="project-04">
 		  			</a>
-			  	</div><
+		  			<div id="project-04"  class="fancy-box-slide">
+		  				<i class="fab fa-earlybirds"></i>
+			  			<h4>Project name: Awesome name</h4>
+			  			<h2>I'm in process: </h2>
+			  			<p>Code technologies and skills I got involved with while working on this project.</p>
+		  			</div>
+			  	</div>
 			  	<!--masonry_item end-->
 				<!--masonry_item start-->
 			  	<div class="grid-item">
-			  		<a href="#">
+			  		<a class="img" data-fancybox="project-05" data-src="#project-05" href="javascript:;">
 		  				<img src="assets/images/5.jpg" alt="project-05">
 		  			</a>
+		  			<div id="project-05"  class="fancy-box-slide">
+		  				<i class="fab fa-earlybirds"></i>
+			  			<h4>Project name: Awesome name</h4>
+			  			<h2>I'm in process: </h2>
+			  			<p>Code technologies and skills I got involved with while working on this project.</p>
+		  			</div>
 			  	</div>
 			  	<!--masonry_item end-->
 				<!--masonry_item start-->
 			  	<div class="grid-item">
-			  		<a href="#">
+			  		<a class="img" data-fancybox="project-06" data-src="#project-06" href="javascript:;">
 		  				<img src="assets/images/6.jpg" alt="project-06">
 		  			</a>
+		  			<div id="project-06"  class="fancy-box-slide">
+		  				<i class="fab fa-earlybirds"></i>
+			  			<h4>Project name: Awesome name</h4>
+			  			<h2>I'm in process: </h2>
+			  			<p>Code technologies and skills I got involved with while working on this project.</p>
+		  			</div>
 			  	</div>
 			  	<!--masonry_item end-->
 				<!--masonry_item start-->
 			  	<div class="grid-item">
-			  		<a href="#">
+			  		<a class="img" data-fancybox="project-07" data-src="#project-07" href="javascript:;">
 		  				<img src="assets/images/7.jpg" alt="project-07">
 		  			</a>
+		  			<div id="project-07"  class="fancy-box-slide">
+		  				<i class="fab fa-earlybirds"></i>
+			  			<h4>Project name: Awesome name</h4>
+			  			<h2>I'm in process: </h2>
+			  			<p>Code technologies and skills I got involved with while working on this project.</p>
+		  			</div>
 			  	</div>
 			  	<!--masonry_item end-->
 				<!--masonry_item start-->
 			  	<div class="grid-item">
-			  		<a href="#">
+			  		<a class="img" data-fancybox="project-08" data-src="#project-08" href="javascript:;">
 		  				<img src="assets/images/8.jpg" alt="project-08">
 		  			</a>
+		  			<div id="project-08"  class="fancy-box-slide">
+		  				<i class="fab fa-earlybirds"></i>
+			  			<h4>Project name: Awesome name</h4>
+			  			<h2>I'm in process: </h2>
+			  			<p>Code technologies and skills I got involved with while working on this project.</p>
+		  			</div>
 			  	</div>
 			  	<!--masonry_item end-->
 			</div>

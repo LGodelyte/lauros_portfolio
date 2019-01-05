@@ -4,9 +4,18 @@
 
 $(document).ready(function(){
 	$('.burger').click(function(){
-		$('.main-nav').toggleClass('show');
+		$('.menu-item').toggleClass('show'),
+
+	});
+	$('.burger').click(function(){
+		$('.grey-nav').toggleClass('show');
+	});
+	$('.menu-item').click(function(){
+		$('.main-nav').toggleClass('hidden');
 	});
 });
+
+
 
 
 }());
