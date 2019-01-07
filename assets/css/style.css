@@ -50,18 +50,6 @@ body {
   align-items: center;
 }
 
-.grey-nav {
-  background-color: #e2e2e2;
-}
-
-.show {
-  display: block;
-}
-
-.hidden {
-  display: none;
-}
-
 .burger {
   display: none;
 }
@@ -525,10 +513,6 @@ img {
   padding: .625rem;
 }
 
-.contact-left-side .contact-left-side .container {
-  padding-left: 3rem;
-}
-
 .contact-left-side .rotate {
   -webkit-transform: rotate(270deg);
   -ms-transform: rotate(270deg);
@@ -545,10 +529,6 @@ img {
   align-items: center;
 }
 
-.contact-right-side .contact-right-side .container {
-  padding-left: 3rem;
-}
-
 .contact-right-side .contact-content-box {
   margin-top: 3.125rem;
   -ms-flex-wrap: wrap;
@@ -557,7 +537,7 @@ img {
 
 .contact-right-side .item-box {
   width: 100%;
-  padding: 1.25rem 0;
+  padding: 1.25rem 0 0 2rem;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;

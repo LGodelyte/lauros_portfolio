@@ -14,11 +14,13 @@ $(document).ready(function(){
 
 // window.onscroll = function() {scrollFunction()};
 
+// let grey-nav = $(".top-nav");
+
 // function scrollFunction() {
 //   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-//     $('.grey-nav').toggleClass('show');
+//     grey-nav.css("background-color", "$light-grey");
 //   } else {
-//    	$('.grey-nav').toggleClass('hidden');
+//    grey-nav.css("background-color", "");
 //   }
 // }
 
