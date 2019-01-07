@@ -7,19 +7,20 @@
   justify-content: center;
     p {
       text-align: justify;
-      padding: 20px 40px;
+      padding: 1.25rem 2.5rem;
     }
     .about-content {
       width: 100%;
       align-items: center;
+      flex-wrap: wrap;
       background-color: #fff;
-      padding: 30px;
+      padding: 1.875rem;
       box-shadow: 4px 4px 7px 0px rgba(112,106,112,1);
     }
     .about-element {
       width: 33.33%;
       text-align: center;
-      padding: 40px 0;
+      padding: 2.5rem 0;
       justify-content: center;
     }
     .self{
@@ -28,8 +29,8 @@
 }
 
 .hexagon {
-  width: 200px;
-  height: 110px;
+  width: 12.5rem;
+  height: 6.875rem;
   background: $light-grey;
   position: relative;
   align-items: center;
@@ -40,24 +41,25 @@
     &::before {
       content: "";
       position: absolute;
-      top: -50px;
+      top: -3.125rem;
       left: 0;
       width: 0;
       height: 0;
-      border-left: 100px solid transparent;
-      border-right: 100px solid transparent;
-      border-bottom: 50px solid $light-grey;
+      border-left: 6.25rem solid transparent;
+      border-right: 6.25rem solid transparent;
+      border-bottom: 3.125rem solid $light-grey;
     }
     &::after {
       content: "";
       position: absolute;
-      bottom: -50px;
+      bottom: -3.125rem;
       left: 0;
       width: 0;
       height: 0;
-      border-left: 100px solid transparent;
-      border-right: 100px solid transparent;
-      border-top: 50px solid $light-grey;
+      border-left: 6.25rem solid transparent;
+      border-right: 6.25rem solid transparent;
+      border-top: 3.125rem solid $light-grey;
     }
 }
-/* CONTACT SECTION END */
+
+/* CONTACT SECTION end */

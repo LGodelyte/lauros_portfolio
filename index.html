@@ -12,18 +12,18 @@
 </head>
 <body>
 	<!-- header start -->
-	<header class="top-nav  ">
+	<header class="top-nav">
 		<div class= "container  flex">
 			<div class="logo">
 				<a href="#Home">
 					<img src="assets/images/lv-min.png" alt="Laurų vainikas">
 				</a>
 			</div>
-			<nav >
+			<nav>
 				<div class="burger">
 					<i class="fas fa-bars"></i>
 				</div>
-				<ul class="flex main-nav">
+				<ul class="main-nav flex">
 					<li class="menu-item"><a href="#Home">Home</a></li>
 					<li class="menu-item"><a href="#About">About</a></li>
 					<li class="menu-item"><a href="#Service">Service</a></li>
@@ -248,66 +248,70 @@
 		<div class="container flex">
 			<!-- Contact form -->
 			<div class="contact-left-side flex">
-				<div>
-					<h3 class="rotate" data-integer="04">Contact me</h3>
-				</div>
-				<div class="contact-form flex">
+				<div class="container flex">
 					<div>
-						<p>I'm available for remote work - if you would like to build something together, get in touch!</p>
+						<h3 class="rotate" data-integer="04">Contact me</h3>
 					</div>
-					<div>
-						<form>
-							<div>
-								<input class="form-style" type="text" id="name" name="name" value="" placeholder="Name"> 
+					<div class="contact-form flex">
+						<div>
+							<p>I'm available for remote work - if you would like to build something together, get in touch!</p>
+						</div>
+						<div>
+							<form>
+								<div>
+									<input class="form-style" type="text" id="name" name="name" value="" placeholder="Name"> 
+								</div>
+								<div>
+									<input class="form-style" type="email" id="email" name="email" value="" placeholder="Email"> 
+								</div>
+								<div>
+									<input class="form-style" type="phone" id="phone" name="phone" value="" placeholder="Phone"> 
+								</div>
+								<div>
+									<textarea class="form-style" type="text" id="message" name="message" value="" placeholder="Message"></textarea>
+								</div>
+							</form>
+							<div class="submit flex">
+								<button type="submit" class="button">Send Message</button>
 							</div>
-							<div>
-								<input class="form-style" type="email" id="email" name="email" value="" placeholder="Email"> 
-							</div>
-							<div>
-								<input class="form-style" type="phone" id="phone" name="phone" value="" placeholder="Phone"> 
-							</div>
-							<div>
-								<textarea class="form-style" type="text" id="message" name="message" value="" placeholder="Message"></textarea>
-							</div>
-						</form>
-						<div class="submit flex">
-							<button type="submit" class="button">Send Message</button>
 						</div>
 					</div>
 				</div>
 			</div>
 			<!-- Contact Info -->
 			<div class="contact-right-side flex">
-				<div>
-					<h3 data-integer="05">Contact info</h3>
-					<p>Let's build something together! Or email me if you have any other questions.</p>
-				</div>
-				<div class="contact-content-box">
-					<div class="flex content-icon">
-						<div>
-							<i class="fas fa-mobile-alt fa-fw"></i>
-						</div>
-						<div class="contact-box">
-							<h4>Phone</h4>
-							<p>+370 6775 2677</p>
-						</div>
+				<div class="container">
+					<div>
+						<h3 data-integer="05">Contact info</h3>
+						<p>Let's build something together! Or email me if you have any other questions.</p>
 					</div>
-					<div class="flex content-icon">
-						<div>
-							<i class="fas fa-map-marked-alt fa-fw"></i>
+					<div class="contact-content-box flex">
+						<div class="flex item-box">
+							<div>
+								<i class="fas fa-mobile-alt fa-fw"></i>
+							</div>
+							<div class="item-text">
+								<h4>Phone</h4>
+								<p>+370 6775 2677</p>
+							</div>
 						</div>
-						<div class="contact-box">
-							<h4>Location</h4>
-							<p>Vilnius, Lithuania</p>
+						<div class="flex item-box">
+							<div>
+								<i class="fas fa-map-marked-alt fa-fw"></i>
+							</div>
+							<div class="item-text">
+								<h4>Location</h4>
+								<p>Vilnius, Lithuania</p>
+							</div>
 						</div>
-					</div>
-					<div class="flex content-icon">
-						<div>
-							<i class="far fa-envelope fa-fw"></i>
-						</div>
-						<div class="contact-box">
-							<h4>Email</h4>
-							<p>laura.godelyte@gmail.com</p>
+						<div class="flex item-box">
+							<div>
+								<i class="far fa-envelope fa-fw"></i>
+							</div>
+							<div class="item-text">
+								<h4>Email</h4>
+								<p>laura.godelyte@gmail.com</p>
+							</div>
 						</div>
 					</div>
 				</div>

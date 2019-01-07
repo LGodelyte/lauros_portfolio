@@ -1,17 +1,17 @@
 //_general
- /* GENERAL */
+ /* GENERAL start*/
 p {
 	font-family: $second-font;
 	font-size: 1rem;
 	font-weight: 400;
-	letter-spacing: 0.1em;
+	letter-spacing: .1em;
 	color: $darker-grey;
-	margin: 5px 0;
+	margin: .32rem 0;
 }
 
 h1, h2, h3, h4 {
 	font-family: $main-font;
-	letter-spacing: 0.1em;
+	letter-spacing: .1em;
 	text-transform: uppercase;
 	color: $darker-grey;
 }
@@ -19,7 +19,7 @@ h1, h2, h3, h4 {
 h1 {
 	font-size: 2.5rem;
 	font-weight: 700;
-	padding:0 82px;
+	padding:0 5.2rem;
 }
 
 h2 {
@@ -39,7 +39,7 @@ h4 {
 	font-weight: 400;
 	color: $darker-grey;
 	margin: 0;
-	padding: 10px 0;
+	padding: .625rem 0;
 }
 
 img {
@@ -55,13 +55,13 @@ img {
 }
 
 .section-padding {
-	padding: 40px;
+	padding: 2.5rem;
 }
 
 .button {
 	display: inline-block;
-	padding: 10px 30px 10px;
-	margin: 25px 0;
+	padding: .625rem 1.875rem .625rem;
+	margin: 1.562rem 0;
 	color: $darker-grey;
 	font-family: $second-font;
 	text-decoration: none;
@@ -81,7 +81,7 @@ img {
 			color: $coral;
 			font-size: 3rem;
 			width: 700;
-			vertical-align: 25px;
+			vertical-align: 1.563rem;
 }
 
- /* GENERAL */
+ /* GENERAL end */

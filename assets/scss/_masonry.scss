@@ -2,12 +2,12 @@
  /* MASONRY start */
 
 .grid {
-	margin: 25px;
+	margin: 1.562rem;
 }
 
 .grid-item { 
 	width: 25%;
-	padding: 10px;
+	padding: .625rem;
 	position: relative;
 		.img:hover{
 			content: "";
@@ -18,7 +18,7 @@
 					text-transform: uppercase;
 					color: $darker-grey;
 					font-family: $second-font;
-					padding: 20px;
+					padding: 1.25rem;
 					border: 2px solid $coral;
 					border-radius: 90%;
 					background-color: $coral;
@@ -40,7 +40,7 @@
 	width: 100%;
 	align-items: center;
 	background-color: #fff;
-	padding: 30px 0;
+	padding: 1.875rem 0;
 	box-shadow: 4px 4px 7px 0px rgba(112,106,112,1);
 }
 
@@ -50,7 +50,7 @@
 	min-height: 60%;
 	background-color: $coral;
 		i {
-			font-size: 60px;
+			font-size: 3.75rem;
 			color: $darker-grey;
 			display: inline-block;
 		}
@@ -74,7 +74,7 @@
 		}
 		li{
 			list-style: none;
-			padding: 5px;
+			padding: .32rem;
 		}
 }
 

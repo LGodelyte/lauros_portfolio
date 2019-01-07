@@ -1,0 +1,96 @@
+//_responsive
+/* RESPONSIVE start */
+
+@media all and (max-width: 900px){
+	.about .about-element{
+	    width: 100%;
+	  }
+	.about-content{
+	    flex-wrap: wrap;
+	  }
+	.grid-item{
+	  	width: 33.33%;
+	  }
+	.contact-left-side .container{
+		flex-wrap:  wrap;
+	}
+	.contact-left-side .rotate{
+		transform: none;
+	}
+}
+
+@media all and (max-width: 800px){
+	.contact .container{
+		flex-wrap:  wrap;
+	}
+	.contact-left-side{
+		width: 100%;
+	}
+	.contact-right-side{
+		width: 100%;
+	}
+	.services-content{
+		flex-wrap: wrap;
+	}
+	.services .service{
+		width: 100%;
+	}
+	.service i{
+		font-size: 2rem;
+	}
+	.grid-item{
+	  	width: 50%;
+	}
+	.social-nav{
+		width: 100%;
+		flex-wrap: wrap;
+	}
+	.copy-right{
+		width: 100%;
+		flex-wrap: wrap;
+	}
+	.copy-right p{
+		width: 100%;
+	}	
+}
+
+@media all and (max-width: 600px) {
+	// .top-nav{
+	// 	background-color: $light-grey;
+	// }
+	.main-nav{
+	display: none;
+	flex-wrap: wrap;
+	align-content: flex-end;	
+	}
+	.show{
+	display: block;
+	border-color: $light-grey;
+	}
+	.menu-item {
+		width: 100%;
+		margin-top: .4rem;
+		text-align: right;
+	}
+	.burger {
+		display: block;
+		text-align: right;
+	}
+	.button{
+		font-size: 0.7rem;
+	}
+	[data-integer]::before{
+		font-size: 2rem;
+	}
+	h3{
+		font-size: 1.6rem; 
+	}
+	h4{
+		font-size: 1.1rem;
+	}
+	.grid-item{
+  		width: 100%;
+ 	 }
+}
+
+/* RESPONSIVE end */
