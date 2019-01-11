@@ -199,8 +199,16 @@ img {
   content: attr(data-integer) " ";
   color: #ff8080;
   font-size: 3rem;
-  width: 700;
+  font-weight: 700;
   vertical-align: 1.563rem;
+}
+
+.grey-nav {
+  background-color: #e2e2e2;
+}
+
+.remove {
+  display: none;
 }
 
 /* GENERAL end */
@@ -499,14 +507,9 @@ img {
   min-height: 100vh;
 }
 
-.contact .container {
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
 .contact-left-side {
   width: 50%;
+  margin-top: 5rem;
 }
 
 .contact-left-side h3 {
@@ -580,7 +583,7 @@ img {
   padding: 2.5rem 2.5rem 0;
 }
 
-.contact-form input, .contact-form textarea {
+.contact-form .input-box-size {
   width: 100%;
   margin-top: .625rem;
   margin-bottom: .625rem;
@@ -593,7 +596,7 @@ img {
   border-radius: 2px;
   font-size: .75rem;
   font-family: "Montserrat", sans-serif;
-  width: 400;
+  font-weight: 400;
 }
 
 .contact-form .submit {
@@ -675,7 +678,6 @@ img {
   }
   .show {
     display: block;
-    border-color: #e2e2e2;
   }
   .menu-item {
     width: 100%;

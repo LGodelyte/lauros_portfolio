@@ -5,6 +5,7 @@
 $(document).ready(function(){
 	$('.burger').click(function(){
 		$('.main-nav').toggleClass('show');
+		$('.main-nav').toggleClass('grey-nav');
 	});
 
 	$('.menu-item').click(function(){
@@ -12,16 +13,21 @@ $(document).ready(function(){
 	});
 });
 
-// window.onscroll = function() {scrollFunction()};
+window.onscroll = function() {scrollFunction()};
 
-// let grey-nav = $(".top-nav");
+function scrollFunction() {
+	let height = $('.hero').height();
+  if (document.body.scrollTop > height || document.documentElement.scrollTop > height) {
+    $('.top-nav').addClass('grey-nav');
+  } else {
+   $('.top-nav').removeClass('grey-nav');
+  }
+}
 
-// function scrollFunction() {
-//   if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
-//     grey-nav.css("background-color", "$light-grey");
-//   } else {
-//    grey-nav.css("background-color", "");
-//   }
-// }
+// console.log($('.hero').height());
+
+// let height = $('.hero').height();
+
+
 
 }());

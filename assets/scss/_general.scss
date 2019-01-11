@@ -80,8 +80,19 @@ img {
   			content: attr(data-integer) " ";
 			color: $coral;
 			font-size: 3rem;
-			width: 700;
+			font-weight: 700;
 			vertical-align: 1.563rem;
+}
+
+// .add{
+// 	display: block;
+// }
+
+.grey-nav {
+	background-color: $light-grey;
+}
+.remove{
+	display: none;
 }
 
  /* GENERAL end */

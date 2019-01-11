@@ -4,13 +4,11 @@
 .contact {
 	background-color: #fff;
 	min-height: 100vh;
-		.container {
-			align-items: center;
-		}
 }
 
 .contact-left-side {
 	width: 50%;
+	margin-top: 5rem;
 		h3 {
 			padding: .625rem;
 		}
@@ -62,7 +60,7 @@
 		form {
 			padding: 2.5rem 2.5rem 0;
 		}
-		input, textarea {
+		.input-box-size {
 			width: 100%;
 			margin-top: .625rem;
 			margin-bottom: .625rem;
@@ -74,7 +72,7 @@
 			border-radius: 2px;
 			font-size: .75rem;
 			font-family: $second-font;
-			width: 400;
+			font-weight: 400;
 		}
 		.submit {
 			justify-content: center;
