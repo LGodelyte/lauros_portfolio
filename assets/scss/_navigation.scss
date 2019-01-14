@@ -2,6 +2,7 @@
  /* NAVIGATION start */
 
 .main-nav {
+	width: 100%;
 	a {
 		font-size: 0.85rem;
 		font-weight: 500;
@@ -40,9 +41,6 @@
 .burger i {
 	padding-right: 2rem;
 	font-size: 2rem;
-	.main-nav{
-		background-color: $light-grey;
-	}
 }
  
 .social-nav {

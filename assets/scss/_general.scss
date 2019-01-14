@@ -77,22 +77,15 @@ img {
 }
 
 [data-integer]::before {
-  			content: attr(data-integer) " ";
-			color: $coral;
-			font-size: 3rem;
-			font-weight: 700;
-			vertical-align: 1.563rem;
+	content: attr(data-integer) " ";
+	color: $coral;
+	font-size: 3rem;
+	font-weight: 700;
+	vertical-align: 1.563rem;
 }
-
-// .add{
-// 	display: block;
-// }
 
 .grey-nav {
 	background-color: $light-grey;
-}
-.remove{
-	display: none;
 }
 
  /* GENERAL end */

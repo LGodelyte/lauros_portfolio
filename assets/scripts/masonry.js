@@ -9,6 +9,8 @@ $(document).ready(function(e){
 	});
 });
 
+let i = $("project");
+
 $("#portfolio").on('click', function() {
   $.fancybox.open();
 });

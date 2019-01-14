@@ -40,14 +40,14 @@
 	width: 100%;
 	align-items: center;
 	background-color: #fff;
-	padding: 1.875rem 0;
+	padding: 2rem 0;
 	box-shadow: 4px 4px 7px 0px rgba(112,106,112,1);
 }
 
 .fancy-box-slide{
 	display: none;
-	min-width: 60%;
-	min-height: 60%;
+	min-width: 50%;
+	min-height: 50%;
 	background-color: $coral;
 		i {
 			font-size: 3.75rem;
@@ -56,7 +56,7 @@
 		}
 }
 
-.categorys{
+.categorys-list{
 	width: 100%;
 		a{
 			font-size: 0.85rem;

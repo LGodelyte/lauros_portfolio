@@ -25,9 +25,17 @@
 	}
 	.contact-left-side{
 		width: 100%;
+		margin: 0;
+		align-items: center;
 	}
 	.contact-right-side{
 		width: 100%;
+	}
+	.contact-right-side p{
+		font-size: .8rem;
+	}
+	.contact-right-side i{
+		font-size: 2rem;
 	}
 	.services-content{
 		flex-wrap: wrap;
@@ -37,6 +45,9 @@
 	}
 	.service i{
 		font-size: 2rem;
+	}
+	.service-title{
+		padding-left: none;
 	}
 	.grid-item{
 	  	width: 50%;

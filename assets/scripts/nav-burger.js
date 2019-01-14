@@ -5,7 +5,6 @@
 $(document).ready(function(){
 	$('.burger').click(function(){
 		$('.main-nav').toggleClass('show');
-		$('.main-nav').toggleClass('grey-nav');
 	});
 
 	$('.menu-item').click(function(){
@@ -23,11 +22,5 @@ function scrollFunction() {
    $('.top-nav').removeClass('grey-nav');
   }
 }
-
-// console.log($('.hero').height());
-
-// let height = $('.hero').height();
-
-
 
 }());

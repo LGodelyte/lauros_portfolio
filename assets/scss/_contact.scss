@@ -4,6 +4,9 @@
 .contact {
 	background-color: #fff;
 	min-height: 100vh;
+	.container{
+		width: 100%;
+	}
 }
 
 .contact-left-side {
@@ -18,12 +21,11 @@
 }
 
 .contact-right-side {
-	background-color: #fff;
 	width: 50%;
 	flex-wrap: wrap;
 	align-items: center;
 		.contact-content-box {
-			margin-top: 3.125rem;
+			width: 100%;
 			flex-wrap: wrap;
 		}
 		.item-box {
