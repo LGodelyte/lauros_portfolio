@@ -9,7 +9,6 @@ $(document).ready(function(e){
 	});
 });
 
-let i = $("project");
 
 $("#portfolio").on('click', function() {
   $.fancybox.open();
@@ -43,5 +42,7 @@ $("#project-07").on('click', function() {
 $("#project-08").on('click', function() {
   $.fancybox.open();
 });
+
+
 
 }());

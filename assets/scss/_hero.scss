@@ -3,20 +3,18 @@
 
 .hero {
 	background-size: cover;
-	min-height: 100vh;
 	background-position: center;
 }
 
 .hero-left-side {
 	background-color: #fff;
 	width: 50%;
-	min-height: 100vh;
 	text-align: center;
 	align-items: center;
-		&:before {
+		&::before {
 			content: "";
 			position: absolute;
-		    top: 6rem;
+		    top: 15%;
 		    right: 0;
 		    width: 15rem;
 		    height: 26rem;
@@ -26,21 +24,17 @@
 }
 
 .hero-right-side {
-	background-color: $light-grey;
 	width: 50%;
-	min-height: 100vh;
-	background-image: url(../images/profile.png);
-	background-size: cover;
-		&:before {
+	background-color: $light-grey;
+		&::before {
 			content: "";
 			position: absolute;
-		    top: 6rem;
+		    top: 15%;
 		    left: 0;
 		    width: 15rem;
 		    height: 26rem;
 		    border: .625rem solid $light-grey;
 		    border-left: none;
-		    z-index: 0;
 		}
 }
 
@@ -50,6 +44,9 @@
 }
 
 .right-side-content {
+	width: 100%;
+	background-image: url(../images/profile.png);
+	background-size: cover;
 	position: relative;
 }
 

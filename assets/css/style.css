@@ -111,7 +111,7 @@ body {
 }
 
 li {
-  margin-right: 1.875rem;
+  margin-right: 1.5rem;
 }
 
 /* NAVIGATION end*/
@@ -120,6 +120,7 @@ p {
   font-family: "Montserrat", sans-serif;
   font-size: 1rem;
   font-weight: 400;
+  line-height: 150%;
   letter-spacing: .1em;
   color: #212121;
   margin: .32rem 0;
@@ -172,6 +173,10 @@ img {
   margin: 0 auto;
 }
 
+.min-height {
+  min-height: 100vh;
+}
+
 .section-padding {
   padding: 2.5rem;
 }
@@ -211,24 +216,22 @@ img {
 /* HERO start */
 .hero {
   background-size: cover;
-  min-height: 100vh;
   background-position: center;
 }
 
 .hero-left-side {
   background-color: #fff;
   width: 50%;
-  min-height: 100vh;
   text-align: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
 }
 
-.hero-left-side:before {
+.hero-left-side::before {
   content: "";
   position: absolute;
-  top: 6rem;
+  top: 15%;
   right: 0;
   width: 15rem;
   height: 26rem;
@@ -237,23 +240,19 @@ img {
 }
 
 .hero-right-side {
-  background-color: #e2e2e2;
   width: 50%;
-  min-height: 100vh;
-  background-image: url(../images/profile.png);
-  background-size: cover;
+  background-color: #e2e2e2;
 }
 
-.hero-right-side:before {
+.hero-right-side::before {
   content: "";
   position: absolute;
-  top: 6rem;
+  top: 15%;
   left: 0;
   width: 15rem;
   height: 26rem;
   border: 0.625rem solid #e2e2e2;
   border-left: none;
-  z-index: 0;
 }
 
 .left-side-content {
@@ -262,6 +261,9 @@ img {
 }
 
 .right-side-content {
+  width: 100%;
+  background-image: url(../images/profile.png);
+  background-size: cover;
   position: relative;
 }
 
@@ -269,7 +271,6 @@ img {
 /* CONTACT SECTION start */
 .about {
   background-color: #e2e2e2;
-  min-height: 100vh;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
@@ -360,12 +361,11 @@ img {
   -webkit-box-pack: end;
   -ms-flex-pack: end;
   justify-content: flex-end;
-  padding: 1.8rem 6.25rem 0.4rem 0;
+  padding: 2.5rem 6.25rem 0.4rem 0;
 }
 
 .services {
   background-color: #fff;
-  min-height: 100vh;
 }
 
 .services .services-content {
@@ -373,9 +373,6 @@ img {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
 }
 
 .services .service {
@@ -490,6 +487,8 @@ img {
   text-decoration: line-through;
   -webkit-text-decoration-color: #ff8080;
   text-decoration-color: #ff8080;
+  -webkit-text-decoration: 3px;
+  text-decoration: 3px;
 }
 
 .categorys-list li {

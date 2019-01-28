@@ -29,6 +29,8 @@
 					<li class="menu-item"><a href="#Services">Services</a></li>
 					<li class="menu-item"><a href="#Works">Works</a></li>
 					<li class="menu-item"><a href="#Contact">Contact</a></li>
+					<li class="menu-item"><a href="#LT">LT</a></li>
+					<li class="menu-item"><a href="#EN">EN</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -36,24 +38,24 @@
 	<!-- header end -->
 
 	<!-- hero start -->
-	<section id="Home" class="hero">
+	<section id="Home" class="hero min-height">
 		<div class="container flex">
-			<div class="hero-left-side flex">
-				<div class="left-side-content ">
+			<div class="hero-left-side min-height flex">
+				<div class="left-side-content">
 					<h1>Laura Godelytė</h1>
 					<h2>Junior Web developer</h2>
 					<a class="button" href="#Contact">Let’s talk!</a>
 					<a class="button" href="#About">Know more</a>
 				</div>
 			</div>
-			<div class="hero-right-side">
-				<div class="right-side-content"></div>
+			<div class="hero-right-side min-height">
+				<div class="right-side-content min-height"></div>
 			</div>
 		</div>
 	</section>
 	<!-- hero end -->
 	<!-- about start -->
-	<section id="About" class="about flex section-padding">
+	<section id="About" class="about min-height flex section-padding">
 		<div class="container flex">
 			<div class="about-content flex">
 				<div class="about-element">
@@ -116,16 +118,16 @@
 					<h3 data-integer="03">works</h3>
 					<div>
 						<ul class="categorys-list">
-							<li><a href="#">All</a></li>
-							<li><a href="#">HTML</a></li>
-							<li><a href="#">CSS</a></li>
-							<li><a href="#">Javascript</a></li>
+							<li id="all" class="all" ><a href="#">All</a></li>
+							<li class="html"><a href="#">HTML</a></li>
+							<li class="css"><a href="#">CSS</a></li>
+							<li class="javascript"><a href="#">Javascript</a></li>
 						</ul>
 					</div>
 				</div>
 				<!--masonry_item end-->
 				<!--masonry_item start-->
-			  	<div class="grid-item">
+			  	<div class="grid-item all">
 			  		<a class="img" data-fancybox="portfolio" data-src="#portfolio" href="javascript:;">
 		  				<img src="assets/images/1.jpg" alt="project-01">
 		  			</a>
@@ -146,7 +148,7 @@
 		  		</div>
 			  	<!--masonry_item end-->
 				<!--masonry_item start-->
-			  	<div class="grid-item">
+			  	<div class="grid-item all">
 			  		<a class="img" data-fancybox="gallery" data-src="#gallery" href="javascript:;">
 		  				<img src="assets/images/2.jpg" alt="project-02">
 		  			</a>
@@ -163,7 +165,7 @@
 			  	</div>
 			  	<!--masonry_item end-->
 				<!--masonry_item start-->
-			  	<div class="grid-item">
+			  	<div class="grid-item all">
 			  		<a class="img" data-fancybox="project-03" data-src="#project-03" href="javascript:;">
 		  				<img src="assets/images/3.jpg" alt="project-03">
 		  			</a>
