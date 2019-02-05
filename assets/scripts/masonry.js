@@ -3,7 +3,6 @@
 "use strict";
 $(document).ready(function(e){
 	$('.grid').masonry({
-	  // options
 	  itemSelector: '.grid-item',
 	  columnWidth: '.grid-item'
 	});
