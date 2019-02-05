@@ -423,6 +423,7 @@ img {
 .grid-item .img:hover::before {
   content: "View project";
   text-align: center;
+  font-size: 70%;
   text-transform: uppercase;
   color: #212121;
   font-family: "Montserrat", sans-serif;
